@@ -1,0 +1,79 @@
+.rcb {
+  background-image: linear-gradient(to bottom, #a4261d, #1e293b);
+  min-height: 100vh;
+}
+.kkr {
+  background-image: linear-gradient(to bottom, #5755a7, #1e293b);
+  min-height: 100vh;
+}
+.pbks {
+  background-image: linear-gradient(to bottom, #d91c1f, #1e293b);
+  min-height: 100vh;
+}
+.csk {
+  background-image: linear-gradient(to bottom, #f7db00, #1e293b);
+  min-height: 100vh;
+}
+.rr {
+  background-image: linear-gradient(to bottom, #da237b, #1e293b);
+  min-height: 100vh;
+}
+.mi {
+  background-image: linear-gradient(to bottom, #13418b, #1e293b);
+  min-height: 100vh;
+}
+.srh {
+  background-image: linear-gradient(to bottom, #f26d22, #1e293b);
+  min-height: 100vh;
+}
+.dc {
+  background-image: linear-gradient(to bottom, #4f5db0, #1e293b);
+  min-height: 100vh;
+}
+.loader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.team-matches-container {
+  padding: 50px;
+}
+
+.team-banner {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  height: 70vh;
+}
+.latestmatches-heading {
+  color: #ffffff;
+  font-weight: 400;
+  font-family: 'Bree Serif';
+  font-size: 20px;
+}
+.recentmatches-ul-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .team-matches-container {
+    padding: 17px;
+  }
+
+  .team-banner {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    height: 18vh;
+  }
+  .recentmatches-ul-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    width: 100%;
+   padding-left: 15px;
+  }
+}
